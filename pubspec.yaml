@@ -1,0 +1,35 @@
+name: ai_aim_assist
+description: Mobile AI Aim Assist App for gaming with real-time assistance.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  camera: ^0.10.5
+  tflite_flutter: ^0.10.0
+  permission_handler: ^11.4.4
+  provider: ^6.0.5
+  sensors_plus: ^3.0.0
+  vibration: ^1.8.4
+  flutter_compass: ^0.8.0
+  firebase_core: ^2.24.2
+  firebase_analytics: ^10.7.2
+  google_ml_kit: ^0.13.0
+  image: ^4.1.1
+  vector_math: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_linter:
+    version: 2.0.1
+
+flutter:
+  uses-material-design: true
