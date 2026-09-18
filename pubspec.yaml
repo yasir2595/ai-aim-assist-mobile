@@ -1,8 +1,6 @@
 name: ai_aim_assist
-description: Mobile AI Aim Assist App for gaming with real-time assistance.
-
+description: A standalone, fair-play aim training app for reaction, accuracy, and crosshair practice.
 publish_to: 'none'
-
 version: 1.0.0+1
 
 environment:
@@ -24,6 +22,7 @@ dependencies:
   google_ml_kit: ^0.13.0
   image: ^4.1.1
   vector_math: ^2.1.4
+  shared_preferences: ^2.2.2
 
 dev_dependencies:
   flutter_test:
