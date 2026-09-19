@@ -12,7 +12,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   camera: ^0.10.5
   tflite_flutter: ^0.10.0
-  permission_handler: ^11.4.4
+  permission_handler: 13.0.2
   provider: ^6.0.5
   sensors_plus: ^3.0.0
   vibration: ^1.8.4
@@ -27,8 +27,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_linter:
-    version: 2.0.1
+  flutter_lints: ^3.0.0
+
 
 flutter:
   uses-material-design: true
